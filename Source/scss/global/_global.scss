@@ -1,0 +1,25 @@
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 80px;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+*, body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: #010101; }
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 80px;
+  margin: 0 auto; }
+
+.btn {
+  display: block;
+  width: auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+  background: #2F80ED;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+  .btn:disabled {
+    opacity: 0.3;
+    cursor: initial; }
+
+.btn--secondary {
+  background-color: #E0E0E0;
+  color: #525252; }
+
+/*# sourceMappingURL=main.css.map */
